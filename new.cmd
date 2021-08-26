@@ -1,0 +1,1 @@
+C:\ffmpeg\bin\ffmpeg -loop 1 -i C:\ffmpeg\plots\plot86.jpg -i C:\ffmpeg\sonifications\sonification86.wav -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest C:\ffmpeg\combined\out86.mp4 
